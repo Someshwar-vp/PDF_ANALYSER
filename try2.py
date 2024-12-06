@@ -15,8 +15,8 @@ from langchain_groq import ChatGroq  # For integrating with ChatGroq language mo
 from langchain_community.embeddings import SentenceTransformerEmbeddings  # Embedding class for SentenceTransformer
 
 # Set environment variables for API keys (used for interacting with third-party APIs like Groq)
-os.environ["GROQ_API_KEY"] = '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'
-os.environ["LANGCHAIN_API_KEY"] = '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'
+os.environ["GROQ_API_KEY"] = ''
+os.environ["LANGCHAIN_API_KEY"] = ''
 
 # Initialize the SentenceTransformer model
 model_name = 'sentence-transformers/all-MiniLM-L6-v2'  # The model used to convert text to embeddings (a numerical representation)
